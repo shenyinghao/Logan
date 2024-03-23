@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-    s.source_files = "Logan/iOS/*.{h,m}", "Logan/Clogan/*.{h,c}"
-    s.public_header_files = "Logan/iOS/*.h"
+    s.source_files = "MyLogan/iOS/*.{h,m}", "MyLogan/Clogan/*.{h,c}"
+    s.public_header_files = "MyLogan/iOS/*.h"
 
     s.subspec 'mbedtls' do |mbedtls|
-        mbedtls.source_files = "Logan/mbedtls/**/*.{h,c}"
+        mbedtls.source_files = "MyLogan/mbedtls/**/*.{h,c}"
         mbedtls.header_dir = 'mbedtls'
-        mbedtls.private_header_files = "Logan/mbedtls/**/*.h"
-        mbedtls.pod_target_xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/Logan/Logan/**"}
+        mbedtls.private_header_files = "MyLogan/mbedtls/**/*.h"
+        mbedtls.pod_target_xcconfig = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/Logan/MyLogan/**"}
     end
 end
