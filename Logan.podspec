@@ -24,12 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/shenyinghao/Logan'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shenyinghao' => 'yinghao.shen@shopcider.com' }
+  s.author           = { 'shenyinghao' => '191728786@qq.com' }
   s.source           = { :git => 'https://github.com/shenyinghao/Logan.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-    s.osx.deployment_target = '10.9'
 
     s.source_files = "Logan/iOS/*.{h,m}", "Logan/Clogan/*.{h,c}"
     s.public_header_files = "Logan/iOS/*.h"
